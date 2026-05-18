@@ -1,0 +1,42 @@
+Tujuan Utama:
+Pengembanagn instrumen Asesmen Kimia Ukur Adaptif Terpadu (AKURAT) berbasis multistage adaptive testing (MSAT) yang dilengkapi dengan skala keyakinan (confidence rating) 
+materi stoikiometri
+
+Mekanisme:
+Algoritma adaptif kemudian bekerja dengan prinsip logika percabangan: apabila peserta didik menjawab benar dengan tingkat keyakinan tinggi, sistem mengarahkan ke modul soal dengan tingkat kesukaran lebih tinggi; sebaliknya, jika jawaban salah atau menunjukkan keyakinan rendah, sistem mengarahkan ke modul dengan tingkat kesukaran lebih rendah.
+
+Kriteria penghentian tes (stopping rule) - jumlah minimal modul yang harus diselesaikan dan batas kesalahan standar estimasi (standard error of measurement).
+
+media sistem yang meliputi domain model, learner model, adaptation model, bank soal terkalibrasi, dan user interface.
+
+AKURAT terdiri dari lima elemen inti yang saling terhubung, yaitu: (1) domain model yang memuat struktur materi stoikiometri serta kompetensi yang diujikan, (2) learner model yang mencatat profil kemampuan, preferensi, dan perkembangan peserta didik, (3) adaptation model berupa algoritma yang menentukan soal berikutnya berdasarkan jawaban sebelumnya, (4) media atau bank soal yang berisi kumpulan butir soal yang telah dikalibrasi tingkat kesulitannya, serta (5) user interface sebagai tampilan interaktif tempat peserta didik mengerjakan asesmen.
+
+Arsitektur sistem yang meliputi: (1) perancangan dan implementasi basis data bank soal, (2) pemrograman algoritma seleksi soal berbasis parameter IRT, (3) pengembangan modul estimasi kemampuan peserta didik secara dinamis, serta (4) perancangan antarmuka pengguna (user interface) yang interaktif dan responsif.
+
+dianalisis menggunakan pendekatan Item Response Theory (IRT)
+
+Pengumpulan Data:
+Pola jawaban BBB, baik disertai keyakinan maupun tidak, diklasifikasikan sebagai paham konsep, yang menunjukkan bahwa peserta didik mampu memahami konsep secara utuh. Selanjutnya, pola jawaban Salah (sedang), Benar (mudah), Salah (sedang); Benar (sedang), Salah (sukar), Salah (sedang); dan Salah (sedang), Salah (mudah), Benar (sedang), baik pada kondisi yakin maupun tidak yakin, dikategorikan sebagai tidak paham konsep, karena peserta didik belum mampu menunjukkan pemahaman yang benar terhadap sebagian besar aspek konsep yang diujikan. Pola jawaban Salah (sedang), Salah (mudah), Salah (sangat mudah) dengan tingkat keyakinan tidak yakin juga diklasifikasikan sebagai tidak paham konsep, yang mengindikasikan rendahnya pemahaman peserta didik terhadap materi. Sementara itu, pola jawaban Salah (sedang), Salah (mudah), Salah (sangat mudah) dengan tingkat keyakinan yakin dikategorikan sebagai miskonsepsi, karena peserta didik memberikan jawaban yang seluruhnya salah namun disertai keyakinan yang tinggi terhadap kebenaran jawabannya.
+
+Timeline Penilitian:
+serta validasi isi dan konstruk instrumen oleh ahli, dilakukan pada bulan Januari – Mei 2026. Selanjutnya tahap pengumpulan data yang meliputi uji coba instrumen hingga uji coba luas / pelaksanaan penelitian yang berlangsung pada bulan Juni – Agustus 2026. Lalu tahap terakhir yaitu tahap analisis data yang meliputi menganalisis data validasi dan instrumen AKURAT, penyusunan dan presentasi penelitian, dilakukan pada bulan September – November 2026
+
+Fitur Platform:
+Materi, Stokiometri reaksi?, rekomendasi
+
+Pertanyaan:
+Mana yang lebih urgent untuk dibuat website atau aplikasi dalam iterasi pertama?
+Mana yang akan jadi platform Utama untuk dibuat, aplikasi atau website?
+
+
+Apakah skala keyakinan dapat dihitung menggunakan Waktu pengerjaan
+Apakah Bank data soal di sediakan dalam batch/ sudah ditentukan, atau bank data di kumpulkan berdasarkan skala kesukaran 
+Apakah nilai per soal hanya diberikan nilai bener salah, apakah perlu di tambahkan nilai Waktu rata-rata pengerjaan
+
+Apakah materi hanya berupa document yang di tampilkan atau juga memiliki video?
+Apakah materi di sesuaikan ber tahap yang mana user harus menyelesaikan tiap materi secara brtahap untuk mengakses materi lanjutan?
+Apakah boleh jika rekomendasi ini di ubah, nanti user akan di suru memasukkan data Pendidikan terakhir dan ketertarikannya agar menentukan fitur apa saja yang  muncul di homepage
+
+Apakah untuk platform guru bisa di ubah jadi lebih informatif, dan memiliki perbedaan dari segi homepage untuk memudahkan guru?
+Apakah perlu di tambahkan konfirmasi admin untuk membuat test dan menguploadnya?
+
