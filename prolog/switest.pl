@@ -11,7 +11,7 @@ tingkat(sedang).
 
 
 rekomendasi(Matkul) :-
-    matkul(Matkul, Level, Tipe),p
+    matkul(Matkul, Level, Tipe),
     minat(Tipe),
     cocok_level(Level).
 

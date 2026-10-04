@@ -1,0 +1,37 @@
+# Compiled / bytecode
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Prolog / SWI-Prolog
+*.qlf
+*.qlf.*
+*.qlf.index
+.swipl_history
+*.exe
+
+# Build & output
+out/
+build/
+target/
+bin/
+*.log
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / local
+.env
+.venv/
+venv/

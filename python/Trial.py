@@ -98,8 +98,6 @@ if __name__ == "__main__":
     print("\n--- A* Path ---")
     astar_path = solver.a_star()
     solver.visualize(astar_path)
-sudo named-checkconf
-sudo systemctl restart bind9
 
 
 
